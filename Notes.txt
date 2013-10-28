@@ -1,0 +1,8 @@
+Ideas for future extensebility of this app which could demonstrate the value of unit tests and high cohesion/low coupling:
+
+1) Convert this to a manager/engine/accessor format
+2) Add the following capabilities to the thermostat: 
+	Humidifier
+	Air conditioner
+	Notifications to smart phones
+	Remote control of min/max temp 
