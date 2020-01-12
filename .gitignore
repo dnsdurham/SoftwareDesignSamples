@@ -154,3 +154,7 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+.vs/FurnaceSamples/v16/Server/sqlite3/db.lock
+.vs/FurnaceSamples/v16/Server/sqlite3/storage.ide
+.vs/FurnaceSamples/v16/TestStore/0/000-0000.testlog
+.vs/FurnaceSamples/v16/TestStore/0/testlog.manifest

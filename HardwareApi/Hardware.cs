@@ -24,7 +24,7 @@ namespace HardwareApi
 
     public static class ThermometerHardware
     {
-        private static int _currentTemp = new Random().Next(60, 70);
+        private static int _currentTemp = new Random().Next(60, 75);
 
         public static int Temp 
             {
@@ -32,11 +32,15 @@ namespace HardwareApi
                 {
                     if (FurnaceHardware.IsOn)
                     {
+                        // create some randomness in temperature increases 
+                        _currentTemp += (new Random().Next(0, 2));    
                         return ++_currentTemp; 
                     }
                     else
                     {
-                        return --_currentTemp;
+                    // create some randomness in temperature increases 
+                    _currentTemp -= (new Random().Next(0, 2));
+                    return --_currentTemp;
                     }
                 }
             }
